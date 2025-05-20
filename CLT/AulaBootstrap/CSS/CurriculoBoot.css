@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Roboto&display=swap');
+
+:root {
+  --cor-primaria: #a29bfe; 
+  --cor-secundaria: #ffeaa7;
+  --cor-terciaria: #fab1a0; 
+  --cor-fundo: #f8f9fa; 
+  --cor-texto: #2d3436;
+  --cor-link: #0984e3;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  padding-top: 70px;
+}
+
+#menuMaira {
+  background-color: var(--cor-primaria);
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menuMaira {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.menuMaira:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-texto);
+  border-radius: 5px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: var(--cor-primaria);
+  border-left: 5px solid var(--cor-terciaria);
+  padding-left: 10px;
+}
+
+.btn {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  border-radius: 25px;
+  padding: 6px 16px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+p, li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--cor-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  font-size: 0.95rem;
+}
+
+thead th {
+  background-color: var(--cor-secundaria);
+  color: #2d3436;
+  font-weight: 600;
+}
+
+td, th {
+  vertical-align: middle;
+}
+
+img.rounded-circle {
+  border: 3px solid var(--cor-terciaria);
+}
+
+footer {
+  background-color: var(--cor-primaria);
+  color: white;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
